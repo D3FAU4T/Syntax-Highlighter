@@ -51,8 +51,6 @@ for (const codeblock of codeblocks) {
     
         const highlightedLine = highlightBraces(highlightParameters(code));
     
-        console.log(highlightedLine);
-    
         highlightedCode += highlightedLine + "\n";
     }
 
