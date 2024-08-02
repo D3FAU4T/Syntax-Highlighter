@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'FiraCode Nerd Font';
+    src: url('/Fonts/FiraCodeNerdFont-Regular.ttf') format('truetype');
+}
+
+pre {
+    background-color: #1e2336;
+    padding: 20px;
+}
+
+code {
+    color: #da5e5c;
+}
+
+code {
+    font-family: 'FiraCode Nerd Font', monospace;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variant-ligatures: normal;
+}
+
+.d3generalKeywords {
+    color: #e6a862;
+}
+
+.d3Strings {
+    color: #66c589;
+}
+
+.d3FuncInvoke {
+    color: #49a4ee;
+}
+
+.d3Operators {
+    color: #2c96c2;
+}
+
+.d3Numerics {
+    color: #f38b45;
+}
+
+.d3Punctuations {
+    color: #ffffff;
+}
+
+.d3BuiltIn {
+    color: gold;
+}
+
+.braceLevel0 {
+    color: yellow;
+}
+
+.braceLevel1 {
+    color: cyan;
+}
+
+.braceLevel2, .d3Parameters {
+    color: magenta;
+}
